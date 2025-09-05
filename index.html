@@ -19,23 +19,23 @@
     }
     header h1 {
       margin-bottom: 10px;
+      font-size: 2.5rem;
     }
     header p {
-      margin-bottom: 20px;
+      margin-bottom: 30px;
+      font-size: 1.2rem;
     }
-    .btn {
-      display: inline-block;
+    .store-links img {
+      height: 60px;
       margin: 10px;
-      padding: 12px 24px;
-      background: white;
-      color: #3b82f6;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
+      transition: transform 0.3s;
+    }
+    .store-links img:hover {
+      transform: scale(1.05);
     }
     section {
       padding: 40px 20px;
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
     }
     .features {
@@ -48,6 +48,7 @@
       padding: 20px;
       border-radius: 12px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      font-size: 1.1rem;
     }
     footer {
       background: #eee;
@@ -60,8 +61,10 @@
   <header>
     <h1>Моё приложение</h1>
     <p>Ваш лучший гид по путешествиям с офлайн-картами и умными маршрутами</p>
-    <a href="#" class="btn">Google Play</a>
-    <a href="#" class="btn">App Store</a>
+    <div class="store-links">
+      <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play"></a>
+      <a href="#"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store"></a>
+    </div>
   </header>
 
   <section>
