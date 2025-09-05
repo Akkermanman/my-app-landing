@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Моё приложение</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background: #f9f9f9;
+    }
+    header {
+      background: linear-gradient(135deg, #4f46e5, #3b82f6);
+      color: white;
+      padding: 60px 20px;
+    }
+    header h1 {
+      margin-bottom: 10px;
+    }
+    header p {
+      margin-bottom: 20px;
+    }
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      background: white;
+      color: #3b82f6;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .features {
+      display: grid;
+      gap: 15px;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #eee;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Моё приложение</h1>
+    <p>Ваш лучший гид по путешествиям с офлайн-картами и умными маршрутами</p>
+    <a href="#" class="btn">Google Play</a>
+    <a href="#" class="btn">App Store</a>
+  </header>
+
+  <section>
+    <h2>Что внутри</h2>
+    <div class="features">
+      <div class="card">📍 Интерактивная карта</div>
+      <div class="card">⭐ Избранное</div>
+      <div class="card">🗺️ Оффлайн доступ</div>
+      <div class="card">💬 Отзывы и фото</div>
+      <div class="card">🧭 Умные маршруты</div>
+      <div class="card">🌍 Многоязычный интерфейс</div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Моё приложение. Все права защищены.
+  </footer>
+</body>
+</html>
